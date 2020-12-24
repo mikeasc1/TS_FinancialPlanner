@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TSFP.Common\TSFP.Common.csproj" />
+    <ProjectReference Include="..\TSFP.Domain\TSFP.Domain.csproj" />
+    <ProjectReference Include="..\TSFP.Repository\TSFP.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
